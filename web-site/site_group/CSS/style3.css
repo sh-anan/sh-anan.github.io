@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+li {
+  list-style: none; }
+
+.header .header-box:after, .menu .menu-box:after, .body .body-box .product-center .bottom .pic ul:after, .body .body-box .about-hengyuan .Hengyuang-content:after, .body .body-box .service-idea .service-box .service-content ul:after, .footer .footer-top:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.header {
+  width: 100%;
+  background: #19a8e4; }
+  .header .header-box {
+    width: 1200px;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    color: #ffffff; }
+    .header .header-box .welcome {
+      float: left; }
+    .header .header-box .other {
+      float: right; }
+      .header .header-box .other .other-content {
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 15px 15px;
+        background-position: left center;
+        padding-left: 20px;
+        margin-left: 60px; }
+        .header .header-box .other .other-content.contact-way {
+          background-image: url("../images/icon_1.png");
+          line-height: 40px; }
+        .header .header-box .other .other-content.collect {
+          background-image: url("../images/icon_8.png");
+          border: none;
+          background-color: #19a8e4;
+          margin-left: 60px;
+          font-size: 12px;
+          color: #ffffff; }
+
+.menu {
+  width: 100%; }
+  .menu .menu-box {
+    width: 1200px;
+    margin: auto;
+    height: 120px; }
+    .menu .menu-box .menu-logo {
+      float: left; }
+      .menu .menu-box .menu-logo h1 {
+        font-size: 20px;
+        color: #0c0c0c;
+        height: 120px;
+        padding: 40px;
+        background: url("../images/icon_8.png") no-repeat;
+        background-size: 35px 50px;
+        background-position: top 30px left 0; }
+        .menu .menu-box .menu-logo h1 span {
+          display: block;
+          font-size: 12px; }
+    .menu .menu-box .menu-click {
+      float: right; }
+      .menu .menu-box .menu-click .click-page {
+        font-size: 15px;
+        color: #242424;
+        line-height: 120px;
+        padding-left: 30px; }
+        .menu .menu-box .menu-click .click-page.active {
+          color: #24a8e0; }
+
+.banner {
+  width: 100%;
+  background: url("../images/content_bg.jpg") no-repeat;
+  background-size: cover; }
+  .banner .banner-box {
+    width: 1300px;
+    height: 500px;
+    margin: auto;
+    padding-top: 125px;
+    font-size: 0;
+    position: relative; }
+    .banner .banner-box h1 {
+      font-size: 55px;
+      color: white;
+      padding-bottom: 80px;
+      margin-left: 200px; }
+    .banner .banner-box p {
+      font-size: 24px;
+      color: white;
+      padding-bottom: 40px;
+      margin-left: 200px; }
+    .banner .banner-box .cut-down {
+      position: absolute;
+      width: 100px;
+      height: 50px;
+      bottom: 0;
+      left: 50%;
+      margin-left: -50px;
+      text-align: center; }
+      .banner .banner-box .cut-down .banner-cut {
+        width: 10px;
+        height: 10px;
+        border: none;
+        border-radius: 100%;
+        margin: 20px 20px;
+        background-color: #95cef8; }
+        .banner .banner-box .cut-down .banner-cut.active {
+          background-color: white; }
+    .banner .banner-box .connect {
+      position: absolute;
+      right: 0;
+      bottom: 60px;
+      width: 50px;
+      height: 200px; }
+      .banner .banner-box .connect .connect-click {
+        background-repeat: no-repeat;
+        background-size: 25px 25px;
+        background-color: white;
+        background-position: center center;
+        display: block;
+        height: 50px;
+        width: 50px; }
+        .banner .banner-box .connect .connect-click.co-1 {
+          background-image: url("../images/icon_1.png"); }
+        .banner .banner-box .connect .connect-click.co-2 {
+          background-image: url("../images/icon_2.png"); }
+        .banner .banner-box .connect .connect-click.co-3 {
+          background-image: url("../images/icon_3.png"); }
+        .banner .banner-box .connect .connect-click.co-4 {
+          background-image: url("../images/icon_4.png"); }
+        .banner .banner-box .connect .connect-click.active {
+          background-color: #029bdb; }
+
+.body .body-box {
+  width: 1200px;
+  margin: auto; }
+  .body .body-box .top h1 {
+    font-size: 30px;
+    color: #242424;
+    margin-top: 120px;
+    text-align: center; }
+  .body .body-box .top .cut-line {
+    position: relative; }
+    .body .body-box .top .cut-line h6 {
+      margin: auto;
+      font-size: 12px;
+      color: #242424;
+      width: 200px;
+      background: #fff;
+      line-height: 15px;
+      margin-top: 15px;
+      text-align: center;
+      position: relative;
+      z-index: 2; }
+    .body .body-box .top .cut-line .line {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #242424; }
+  .body .body-box .product-center .bottom .bottom-menu {
+    margin-top: 80px;
+    margin-left: 20px;
+    font-size: 0; }
+    .body .body-box .product-center .bottom .bottom-menu .menu-click {
+      width: 80px;
+      height: 40px;
+      border-radius: 10px;
+      border: none;
+      font-size: 18px;
+      line-height: 40px;
+      color: #242424;
+      text-align: center;
+      background: #eeeeee;
+      margin-right: 30px; }
+      .body .body-box .product-center .bottom .bottom-menu .menu-click.active {
+        color: white;
+        background: #19a8e4; }
+  .body .body-box .product-center .bottom .pic {
+    margin-top: 70px; }
+    .body .body-box .product-center .bottom .pic ul li {
+      position: relative;
+      float: left;
+      padding-right: 15px;
+      width: 25%;
+      box-sizing: border-box; }
+      .body .body-box .product-center .bottom .pic ul li .pic-details {
+        display: block;
+        width: 100%; }
+        .body .body-box .product-center .bottom .pic ul li .pic-details img {
+          display: block;
+          width: 100%;
+          vertical-align: middle;
+          background: #f6f6f6; }
+        .body .body-box .product-center .bottom .pic ul li .pic-details p {
+          width: 100%;
+          height: 50px;
+          font-size: 15px;
+          color: #414141;
+          line-height: 50px;
+          text-align: center;
+          background: #ffffff;
+          border: 1px solid #cccccc;
+          border-top: none; }
+        .body .body-box .product-center .bottom .pic ul li .pic-details.active img {
+          background: #bbc2c7; }
+        .body .body-box .product-center .bottom .pic ul li .pic-details.active p {
+          border-bottom: 4px solid #313131; }
+      .body .body-box .product-center .bottom .pic ul li .more {
+        display: none;
+        width: 90px;
+        height: 35px;
+        background: #029bdb;
+        font-size: 15px;
+        line-height: 35px;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -45px;
+        margin-top: -67px; }
+        .body .body-box .product-center .bottom .pic ul li .more.active {
+          display: block; }
+  .body .body-box .about-hengyuan .Hengyuang-content {
+    padding: 0 110px; }
+    .body .body-box .about-hengyuan .Hengyuang-content .cont-left {
+      margin-top: 90px;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #999999;
+      float: left;
+      width: 360px;
+      height: 360px;
+      font-size: 0; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-left span {
+        display: inline-block; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-left .top-1, .body .body-box .about-hengyuan .Hengyuang-content .cont-left .top-2, .body .body-box .about-hengyuan .Hengyuang-content .cont-left .bottom-1, .body .body-box .about-hengyuan .Hengyuang-content .cont-left .bottom-2 {
+        width: 100px;
+        margin-right: 5px;
+        height: 110px;
+        background: url("../images/logo-bg.png") no-repeat; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-left .top-3, .body .body-box .about-hengyuan .Hengyuang-content .cont-left .bottom-3 {
+        width: 130px;
+        height: 110px;
+        background: url("../images/logo-bg.png") no-repeat; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-left .middle {
+        width: 342px;
+        height: 110px;
+        margin: 5px 0;
+        background: url("../images/logo-1.png") no-repeat; }
+    .body .body-box .about-hengyuan .Hengyuang-content .cont-right {
+      width: 550px;
+      height: 450px;
+      float: right;
+      text-align: center;
+      position: relative;
+      font-size: 0; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-right p {
+        margin-top: 170px;
+        font-size: 20px;
+        color: #5e5e5e;
+        text-indent: 2em;
+        text-align: left; }
+      .body .body-box .about-hengyuan .Hengyuang-content .cont-right .hengyuanmore {
+        font-size: 18px;
+        color: white;
+        border: none;
+        background: #029bdb;
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -75px; }
+  .body .body-box .service-idea .service-box {
+    margin: auto; }
+    .body .body-box .service-idea .service-box .service-content {
+      text-align: center; }
+      .body .body-box .service-idea .service-box .service-content ul {
+        padding-top: 120px;
+        padding-bottom: 140px;
+        width: 900px;
+        margin: auto; }
+        .body .body-box .service-idea .service-box .service-content ul li {
+          float: left;
+          width: 33.333333333%;
+          padding: 0 60px;
+          box-sizing: border-box;
+          background: url("../images/six.jpg") no-repeat;
+          background-size: 180px 180px;
+          background-position: top 0 center; }
+          .body .body-box .service-idea .service-box .service-content ul li h1 {
+            margin-top: 60px;
+            font-size: 40px;
+            font-weight: normal;
+            color: #2b9cf0;
+            line-height: 40px;
+            text-align: center; }
+          .body .body-box .service-idea .service-box .service-content ul li p {
+            margin-top: 90px;
+            font-size: 15px;
+            color: #242424; }
+
+.footer {
+  background-color: #406e98;
+  box-sizing: border-box;
+  padding: 20px 0; }
+  .footer .footer-top {
+    width: 1020px;
+    padding: 10px;
+    margin: auto; }
+    .footer .footer-top .subtitle {
+      width: 50px;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 10px 0;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 40px;
+      color: white;
+      text-align: left;
+      margin-bottom: 30px; }
+    .footer .footer-top .subtitle:after {
+      content: "";
+      display: block;
+      background: white;
+      width: 40px;
+      height: 1px;
+      margin-top: -10px; }
+    .footer .footer-top .hengyuan {
+      width: 33.333333333%;
+      float: left; }
+      .footer .footer-top .hengyuan p {
+        font-size: 15px;
+        color: white;
+        line-height: 16px; }
+      .footer .footer-top .hengyuan ul {
+        margin-top: 50px; }
+        .footer .footer-top .hengyuan ul li {
+          padding-left: 70px;
+          font-size: 15px;
+          color: white;
+          line-height: 50px;
+          background: url("../images/icon_1.png ") no-repeat;
+          background-size: 50px 50px;
+          background-position: left center; }
+    .footer .footer-top .relation {
+      width: 33.333333333%;
+      float: left; }
+      .footer .footer-top .relation h3 {
+        background: url("../images/icon_5.png") no-repeat;
+        background-size: 30px 30px;
+        background-position: left center;
+        padding-left: 40px;
+        font-size: 15px;
+        line-height: 30px;
+        color: white;
+        margin-bottom: 50px; }
+      .footer .footer-top .relation p {
+        font-size: 15px;
+        color: white;
+        height: 16px;
+        margin-bottom: 15px; }
+        .footer .footer-top .relation p.number {
+          padding-left: 45px; }
+    .footer .footer-top .message {
+      width: 33.333333333%;
+      float: left; }
+      .footer .footer-top .message textarea {
+        font-size: 15px;
+        color: #a7a7a7;
+        padding: 10px;
+        box-sizing: border-box;
+        display: block;
+        width: 300px;
+        height: 100px;
+        margin-bottom: 10px;
+        text-align: left; }
+      .footer .footer-top .message input {
+        font-size: 15px;
+        color: #a7a7a7;
+        padding: 10px;
+        box-sizing: border-box; }
+        .footer .footer-top .message input.use-name {
+          width: 120px;
+          height: 35px; }
+        .footer .footer-top .message input.use-number {
+          width: 175px;
+          height: 35px; }
+      .footer .footer-top .message button {
+        display: block;
+        width: 300px;
+        font-size: 18px;
+        color: white;
+        background: #029bdb;
+        line-height: 40px;
+        text-align: center;
+        border: none;
+        margin-top: 10px; }
+  .footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+    line-height: 16px;
+    text-align: center; }
+    .footer .footer-bottom span {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: url("../images/icon_1.png") no-repeat;
+      background-size: 15px 15px;
+      vertical-align: middle; }
+
+/*# sourceMappingURL=style3.css.map */

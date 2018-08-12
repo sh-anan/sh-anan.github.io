@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+li {
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header:after, .header .menu ul:after, .content .content-box ul:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.header {
+  height: 80px;
+  background: #444444; }
+  .header .pull-left {
+    float: left; }
+  .header .pull-right {
+    float: right; }
+  .header .logo {
+    margin-left: 30px;
+    font-size: 0; }
+    .header .logo h1 {
+      display: inline-block;
+      margin-right: 30px;
+      font-size: 24px;
+      line-height: 80px;
+      color: #ffffff;
+      font-weight: normal; }
+      .header .logo h1 img {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        margin-top: -3px; }
+    .header .logo .active {
+      text-align: center;
+      display: inline-block;
+      width: 100px;
+      height: 30px;
+      border-radius: 30px;
+      background: #f2f2f2;
+      font-size: 12px;
+      color: #bf8739;
+      line-height: 30px; }
+      .header .logo .active img {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        vertical-align: middle;
+        margin-top: -3px;
+        margin-right: 5px; }
+  .header .menu {
+    margin-left: 20%; }
+    .header .menu ul li {
+      float: left; }
+      .header .menu ul li .menu-click {
+        padding-right: 10px;
+        padding-left: 10px;
+        display: block;
+        margin-right: 60px;
+        padding-top: 10px; }
+        .header .menu ul li .menu-click img {
+          display: block;
+          width: 25px;
+          height: 25px;
+          margin: auto; }
+        .header .menu ul li .menu-click h6 {
+          box-sizing: border-box;
+          font-size: 12px;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5px;
+          line-height: 40px; }
+        .header .menu ul li .menu-click.active {
+          background: #333333; }
+  .header .function {
+    margin-right: 30px; }
+    .header .function .user {
+      background: url("../images/icon_8.png") no-repeat;
+      background-size: 15px 15px;
+      background-position: left center;
+      font-size: 12px;
+      color: #ffffff;
+      display: inline-block;
+      line-height: 80px;
+      padding-left: 20px; }
+    .header .function .function-click {
+      margin-left: 20px;
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      vertical-align: middle;
+      background-size: 15px 15px;
+      background-position: center center;
+      background-repeat: no-repeat; }
+      .header .function .function-click.key {
+        background-image: url("../images/icon_8.png"); }
+      .header .function .function-click.set {
+        background-image: url("../images/icon_7.png"); }
+      .header .function .function-click.close {
+        background-image: url("../images/icon_6.png"); }
+
+.content {
+  position: fixed;
+  top: 80px;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  background: #fefefe; }
+  .content .content-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1140px;
+    height: 310px;
+    margin-top: -155px;
+    margin-left: -570px; }
+    .content .content-box ul {
+      margin-right: -10px;
+      margin-bottom: -10px;
+      overflow: hidden; }
+      .content .content-box ul li {
+        float: left;
+        padding-right: 10px;
+        padding-bottom: 10px; }
+        .content .content-box ul li .content-box-click {
+          display: block;
+          width: 220px;
+          height: 150px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: cover;
+          font-size: 24px;
+          color: #ffffff;
+          line-height: 150px;
+          text-align: center; }
+          .content .content-box ul li .content-box-click.bg-1 {
+            background-image: url("../images/bg-1.jpg"); }
+          .content .content-box ul li .content-box-click.bg-2 {
+            background-image: url("../images/bg-2.jpg"); }
+          .content .content-box ul li .content-box-click.bg-3 {
+            background-image: url("../images/bg-3.jpg"); }
+          .content .content-box ul li .content-box-click.bg-4 {
+            background-image: url("../images/bg-4.jpg"); }
+          .content .content-box ul li .content-box-click.bg-5 {
+            background-image: url("../images/bg-5.jpg"); }
+          .content .content-box ul li .content-box-click.word-1, .content .content-box ul li .content-box-click.word-2 {
+            background-color: #407cb5; }
+          .content .content-box ul li .content-box-click.word-3, .content .content-box ul li .content-box-click.word-4, .content .content-box ul li .content-box-click.word-5 {
+            background-color: #54646d; }
+          .content .content-box ul li .content-box-click .chinese {
+            height: 24px; }
+          .content .content-box ul li .content-box-click .english {
+            margin-top: 5px;
+            height: 15px;
+            font-size: 15px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  font-size: 12px;
+  color: #cdcdcd;
+  background: #444444; }
+
+/*# sourceMappingURL=style2.css.map */

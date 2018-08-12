@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.content .content-top:after, .content .content-bottom:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: url("../images/bg-5.png") no-repeat;
+  background-size: cover; }
+
+.title {
+  width: 1000px;
+  height: 50px;
+  margin: auto;
+  margin-top: 170px;
+  font-size: 30px;
+  color: darkblue;
+  line-height: 50px; }
+
+.content {
+  width: 840px;
+  height: 420px;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 200px; }
+  .content .content-top li {
+    float: left; }
+    .content .content-top li .content-a {
+      width: 410px;
+      height: 200px;
+      display: block;
+      padding: 60px 0;
+      box-sizing: border-box;
+      background: #3397be;
+      opacity: 0.8; }
+      .content .content-top li .content-a img {
+        display: block;
+        width: 45px;
+        height: 40px;
+        margin: auto; }
+      .content .content-top li .content-a p {
+        font-size: 25px;
+        color: white;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 20px; }
+      .content .content-top li .content-a.a-1 {
+        margin-right: 20px; }
+      .content .content-top li .content-a.active {
+        background: #56bcfc; }
+  .content .content-bottom li {
+    float: left; }
+    .content .content-bottom li .content-b {
+      margin-top: 20px;
+      display: block;
+      padding: 60px 0;
+      box-sizing: border-box;
+      background: #a7bdc3;
+      opacity: 0.8; }
+      .content .content-bottom li .content-b img {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: auto; }
+      .content .content-bottom li .content-b p {
+        font-size: 25px;
+        color: white;
+        line-height: 25px;
+        text-align: center;
+        margin-top: 20px; }
+      .content .content-bottom li .content-b.b-1 {
+        width: 200px;
+        height: 200px;
+        margin-right: 20px; }
+      .content .content-bottom li .content-b.b-2 {
+        width: 400px;
+        height: 200px;
+        margin-right: 20px; }
+      .content .content-bottom li .content-b.b-3 {
+        width: 200px;
+        height: 200px; }
+
+/*# sourceMappingURL=style5.css.map */

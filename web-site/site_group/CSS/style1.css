@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+li {
+  list-style: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.header:after, .header .menu ul:after, .content .top:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.header {
+  height: 60px;
+  background: #377dbd; }
+  .header .pull-left {
+    float: left; }
+  .header .pull-right {
+    float: right; }
+  .header .logo h1 {
+    font-size: 24px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: normal; }
+    .header .logo h1 img {
+      width: 40px;
+      height: 40px;
+      margin-left: 10px;
+      vertical-align: middle;
+      margin-top: -3px; }
+  .header .menu {
+    margin-left: 140px; }
+    .header .menu ul {
+      margin-top: 15px; }
+      .header .menu ul li {
+        float: left; }
+        .header .menu ul li .click {
+          margin-right: 40px;
+          font-size: 12px;
+          color: #ffffff;
+          height: 30px;
+          width: 100px;
+          line-height: 30px;
+          border-radius: 30px; }
+          .header .menu ul li .click img {
+            height: 15px;
+            width: 15px;
+            vertical-align: middle;
+            margin-top: -3px; }
+          .header .menu ul li .click.active {
+            background: #f9f9f9;
+            color: #c68e40; }
+  .header .function {
+    font-size: 0;
+    margin-right: 30px;
+    margin-top: 20px; }
+    .header .function .function-page {
+      display: inline-block;
+      height: 40px;
+      width: 40px; }
+      .header .function .function-page img {
+        height: 15px;
+        width: 15px;
+        vertical-align: middle; }
+
+.content {
+  position: fixed;
+  top: 60px;
+  bottom: 30px;
+  left: 0;
+  width: 100%; }
+  .content .top {
+    background: #ecedec;
+    width: 100%;
+    height: 30px; }
+    .content .top .location {
+      float: left; }
+      .content .top .location img {
+        width: 15px;
+        height: 15px;
+        margin-left: 15px;
+        vertical-align: middle; }
+      .content .top .location p {
+        display: inline-block;
+        font-size: 12px;
+        color: #999999;
+        line-height: 30px; }
+        .content .top .location p span {
+          color: #666666; }
+    .content .top .date {
+      float: right;
+      line-height: 30px;
+      margin-right: 15px; }
+      .content .top .date img {
+        width: 15px;
+        height: 15px;
+        vertical-align: middle; }
+      .content .top .date span {
+        font-size: 12px;
+        color: #999999;
+        margin-left: 5px; }
+  .content .bottom {
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: url("../images/content_bg.jpg") no-repeat;
+    background-size: cover; }
+    .content .bottom .content-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 900px;
+      height: 270px;
+      margin-top: -135px;
+      margin-left: -450px; }
+      .content .bottom .content-box .content-box-a {
+        box-sizing: border-box;
+        text-align: center;
+        padding-left: 80px;
+        font-size: 35px;
+        line-height: 100px;
+        color: #333333;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: 55px 55px;
+        background-position: left 15px center;
+        background-color: #ebebeb;
+        width: 350px;
+        height: 100px;
+        line-height: 100px; }
+        .content .bottom .content-box .content-box-a.a-1 {
+          top: 0;
+          left: 0;
+          background-image: url("../images/icon_8.png"); }
+        .content .bottom .content-box .content-box-a.a-2 {
+          top: 0;
+          right: 0;
+          background-image: url("../images/icon_7.png"); }
+        .content .bottom .content-box .content-box-a.a-3 {
+          bottom: 0;
+          left: 0;
+          background-image: url("../images/icon_6.png"); }
+        .content .bottom .content-box .content-box-a.a-4 {
+          bottom: 0;
+          right: 0;
+          background-image: url("../images/icon_5.png"); }
+        .content .bottom .content-box .content-box-a.active {
+          background-color: #b2d0eb; }
+
+.footer {
+  background: #377dbd;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 30px; }
+
+/*# sourceMappingURL=style1.css.map */

@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+img {
+  display: block; }
+
+.container:after, .list .width-max:after, .list .item-pic.pull-down .item-bottom .bottom-content:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.container {
+  margin: auto;
+  margin-top: 100px;
+  width: 1200px; }
+
+.menu {
+  float: left;
+  width: 240px; }
+  .menu h5 {
+    background: #ee7800;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px; }
+  .menu a {
+    display: block;
+    padding-left: 35px;
+    width: 100%;
+    line-height: 45px;
+    color: #666;
+    background: #f2f2f2;
+    position: relative; }
+    .menu a.active {
+      background: url("../images/arrow01.png") no-repeat;
+      background-position: left 24px center;
+      color: #ee7800; }
+      .menu a.active:after {
+        content: '';
+        display: block;
+        width: 3px;
+        height: 40px;
+        background: #ee7800;
+        position: absolute;
+        top: 0;
+        right: -7px; }
+
+.list {
+  float: right;
+  width: 935px; }
+  .list .nav {
+    text-align: right;
+    padding-bottom: 15px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 0;
+    background: url("../images/homeicon.png") no-repeat;
+    background-position: right 200px bottom 18px; }
+    .list .nav a {
+      font-size: 12px;
+      margin-left: 10px;
+      padding-right: 15px;
+      color: #ccc;
+      background: url("../images/videoicon.png") no-repeat;
+      background-size: 8px 8px;
+      background-position: right center; }
+      .list .nav a.current {
+        color: red; }
+      .list .nav a:last-child {
+        background: none; }
+  .list .box-wrapper {
+    overflow: hidden;
+    width: 100%; }
+  .list .width-max {
+    width: 120%;
+    margin-left: -21px; }
+  .list .item-title {
+    margin-bottom: 25px;
+    width: 100%; }
+    .list .item-title h4 {
+      display: inline-block;
+      color: #fff;
+      font-size: 18px;
+      line-height: 36px;
+      margin-left: 20px;
+      width: 100px;
+      background: #ee7800;
+      text-align: center; }
+    .list .item-title button {
+      margin-left: 788px;
+      font-size: 13px;
+      color: #4c4c4d;
+      line-height: 36px;
+      padding-right: 15px;
+      background: url("../images/videoicon.png") no-repeat;
+      background-size: 10px 10px;
+      background-position: right center;
+      border: none; }
+  .list .item-pic {
+    margin-left: 21px;
+    margin-bottom: 20px;
+    float: left;
+    width: 218px;
+    height: 120px;
+    position: relative; }
+    .list .item-pic .pic-word {
+      font-size: 12px;
+      color: white;
+      width: 120px;
+      line-height: 20px;
+      position: absolute;
+      left: 5px;
+      bottom: 5px; }
+    .list .item-pic.pull-down {
+      height: 196px; }
+      .list .item-pic.pull-down .time {
+        font-size: 10px;
+        color: white;
+        position: absolute;
+        right: 4px;
+        bottom: 81px; }
+      .list .item-pic.pull-down .item-bottom {
+        width: 218px;
+        height: 76px;
+        background: #f5f5f5; }
+        .list .item-pic.pull-down .item-bottom p {
+          font-size: 15px;
+          color: #666666;
+          padding-right: 13px;
+          padding-left: 4px; }
+        .list .item-pic.pull-down .item-bottom .bottom-content .left {
+          float: left;
+          margin-left: 7px; }
+          .list .item-pic.pull-down .item-bottom .bottom-content .left img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 5px; }
+          .list .item-pic.pull-down .item-bottom .bottom-content .left .num {
+            font-size: 10px;
+            color: #666666; }
+        .list .item-pic.pull-down .item-bottom .bottom-content .right {
+          float: right;
+          padding-right: 8px; }
+          .list .item-pic.pull-down .item-bottom .bottom-content .right .word {
+            font-size: 12px;
+            color: #666666; }
+  .list .item-video {
+    margin-left: 20px;
+    float: left;
+    width: 456px;
+    height: 260px;
+    position: relative; }
+    .list .item-video .video-word {
+      color: white;
+      position: absolute;
+      left: 8px;
+      bottom: 6px;
+      font-size: 0; }
+      .list .item-video .video-word img {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px; }
+      .list .item-video .video-word p {
+        font-size: 15px; }
+      .list .item-video .video-word span {
+        font-size: 12px;
+        margin-right: 25px;
+        vertical-align: middle; }
+
+/*# sourceMappingURL=styles.css.map */
