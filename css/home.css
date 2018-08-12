@@ -1,0 +1,77 @@
+@import url(reset.css);
+* {
+  font-family: Tahoma, Arial, 'Helvetica Neue', "Microsoft YaHei New", "Microsoft Yahei", sans-serif; }
+
+html, body {
+  height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #111; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  line-height: 40px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  background: #000;
+  color: #fff; }
+  header .page-title {
+    font-weight: 600; }
+
+.content {
+  flex: 1;
+  overflow: auto; }
+  .content .page-entry-list {
+    position: relative; }
+    .content .page-entry-list:before, .content .page-entry-list:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #ccc; }
+    .content .page-entry-list:before {
+      top: 0; }
+    .content .page-entry-list:after {
+      bottom: 0; }
+  .content .page-entry-item:last-child .tap-el:after {
+    display: none; }
+  .content .tap-el {
+    display: block;
+    position: relative;
+    padding: 0 15px;
+    line-height: 40px;
+    background: #fff;
+    font-size: 20px; }
+    .content .tap-el:before, .content .tap-el:after {
+      content: '';
+      display: block;
+      position: absolute; }
+    .content .tap-el:before {
+      background: url("../images/tap-icon.png") no-repeat;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      width: 15px;
+      height: 15px;
+      background-size: 15px 15px; }
+    .content .tap-el:after {
+      left: 15px;
+      right: 0;
+      height: 1px;
+      background: #ccc;
+      z-index: 2;
+      transform: scaleY(0.5); }
+
+footer {
+  line-height: 60px;
+  text-align: center;
+  background: #000;
+  color: #fff; }
+
+/*# sourceMappingURL=home.css.map */
